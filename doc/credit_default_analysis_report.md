@@ -174,12 +174,12 @@ Table 1. Cross Validation Results of the optimized Models.
 
 After fixing our primary model as `SVC`, we analyze how each of the
 models is scoring against the test data. Showcasing our top models
-first, we see that SVC had a final F1 test score of 0.406 while
-`RandomForestClassifier` has an F1 test score of 0.532. As expected,
+first, we see that SVC had a final F1 test score of 0.403 while
+`RandomForestClassifier` has an F1 test score of 0.538. As expected,
 `RandomForestClassifier` is performing better in terms of F1. Although
 this is the case, as we saw previously, `SVC` has lower Type II errors.
-The models KNN and LogisticRegression have F1 test scores of 0.44 and
-0.469 respectively.
+The models KNN and LogisticRegression have F1 test scores of 0.444 and
+0.467 respectively.
 
 <center>
 
